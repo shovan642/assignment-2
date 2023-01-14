@@ -1,0 +1,12 @@
+/* fonts add  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+body{
+font-family: 'Work Sans', sans-serif;
+list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
