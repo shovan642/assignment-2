@@ -1,12 +1,255 @@
+* {
+    margin: 0 font-family: 'Work Sans', sans-serif;
+}
+
+
 /* fonts add  */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;500;600;700&display=swap');
 
-body{
-font-family: 'Work Sans', sans-serif;
-list-style: none;
+ul>li {
+    list-style: none;
 }
 
-a{
+body {
+    margin: auto;
+
+}
+
+
+
+.header-background {
+    background: #FFF4E7;
+    background-size: cover;
+}
+
+header,
+main,
+footer {
+    width: 1440px;
+    margin: auto;
+
+}
+
+a {
     text-decoration: none;
     color: black;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+#nav-menu {
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+#nav-menu ul {
+    display: flex;
+}
+
+#nav-menu ul>li {
+    padding-left: 30px;
+}
+
+.header-description {
+    margin-top: 102px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.header-description>h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+
+.header-description>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.explore-button {
+    padding: 20px 25px;
+    color: #ffffff;
+    background: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.banner {
+    padding-bottom: 45px;
+}
+
+
+.team-section {
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 130px;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.team-description {
+    margin-left: 73px;
+}
+
+.team-description>h3 {
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+
+.team-description #grey {
+    color: #727272;
+    font-weight: 500;
+}
+
+.team-description #orange {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.team-description>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 23px;
+}
+
+
+
+
+.feature-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-head {
+    margin-top: 39px;
+    margin-bottom: 24px;
+}
+
+.feature-title {
+    border-left: #FF900E solid 7px;
+    padding-left: 21px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.feature-head>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-left: 0;
+}
+
+.single-feature {
+    display: grid;
+    grid-template-rows: repeat(4);
+    row-gap: 20px;
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.single-feature>h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.single-feature>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.single-feature>h3,p{
+    margin-left: 30px;
+    margin-right: 42px;
+}
+
+
+.architect-image {
+    position: relative;
+    z-index: 1;
+    margin-left: 146px;
+}
+
+.experience-button {
+    position: relative;
+    padding: 42px;
+    background-color: #FF900E;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 8px;
+    z-index: 2;
+    right: -50px;
+    bottom: 115px;
+}
+
+.experience-button>span {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.fact-section {
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
+
+.fact-description>h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.fact-description>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-left: 0;
 }
